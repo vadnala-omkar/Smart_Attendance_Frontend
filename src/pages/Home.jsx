@@ -49,13 +49,6 @@ export default function Home() {
         ))}
       </div>
 
-      {/* Camera Display link */}
-      <button
-        onClick={() => navigate('/camera')}
-        className="flex items-center gap-2 text-slate-400 hover:text-white text-sm border border-slate-700 hover:border-slate-500 rounded-xl px-5 py-3 transition-all"
-      >
-        <span>📷</span> Open Camera Attendance Display
-      </button>
 
       <p className="text-slate-600 text-xs mt-8">
         Raspberry Pi 4B · face-api.js · MongoDB Atlas
