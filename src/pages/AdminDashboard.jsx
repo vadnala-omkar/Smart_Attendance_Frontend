@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from 'react';
-import * as faceapi from "face-api.js/dist/face-api.min.js";import Layout from '../components/Layout';
 import api from '../api';
 
 const TABS = [
